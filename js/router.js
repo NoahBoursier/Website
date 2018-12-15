@@ -30,6 +30,9 @@ MyHomeApp.config(['$routeProvider',
                     when('/p-dosemaster', {
                       templateUrl: 'projPages/p-dosemaster.html'
                     }).
+                    when('/p-obnoxious', {
+                      templateUrl: 'projPages/p-obnoxious.html'
+                    }).
                     when('/contact', {
                       templateUrl: 'contact.html'  
                     }).
