@@ -33,6 +33,12 @@ MyHomeApp.config(['$routeProvider',
                     when('/p-obnoxious', {
                       templateUrl: 'projPages/p-obnoxious.html'
                     }).
+                    when('/p-ion', {
+                      templateUrl: 'projPages/p-ion.html'
+                    }).
+                    when('/p-turret', {
+                      templateUrl: 'projPages/p-turret.html'
+                    }).
                     when('/contact', {
                       templateUrl: 'contact.html'  
                     }).
